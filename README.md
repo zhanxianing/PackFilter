@@ -16,4 +16,4 @@
 给出了包过滤路由器的工作原理。包过滤路由器根据内部设置的包过滤规则， 检查进人路由器的每个数据包的相关内容.决定该数据包是否转发以及如何转发。普通路由器只检查数据包的网络层头部，并不检查数据包的传输层头部。包过滤路由器除了检查数据包的网络层头部，还可能检查数据包的传输层头部，其中的端口号是判断数据包类型的依据。
 
 流程图如下：
-(!https://github.com/zhanxianing/PackFilter/blob/main/%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
+![img](https://github.com/zhanxianing/PackFilter/blob/main/%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
